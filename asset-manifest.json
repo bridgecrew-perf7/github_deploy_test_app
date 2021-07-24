@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/github_deploy_test_app/static/css/main.876a941d.chunk.css",
-    "main.js": "/github_deploy_test_app/static/js/main.527cb5b6.chunk.js",
-    "main.js.map": "/github_deploy_test_app/static/js/main.527cb5b6.chunk.js.map",
-    "runtime-main.js": "/github_deploy_test_app/static/js/runtime-main.791bb8a4.js",
-    "runtime-main.js.map": "/github_deploy_test_app/static/js/runtime-main.791bb8a4.js.map",
-    "static/js/2.a1a19c7e.chunk.js": "/github_deploy_test_app/static/js/2.a1a19c7e.chunk.js",
-    "static/js/2.a1a19c7e.chunk.js.map": "/github_deploy_test_app/static/js/2.a1a19c7e.chunk.js.map",
-    "static/js/3.5141c37d.chunk.js": "/github_deploy_test_app/static/js/3.5141c37d.chunk.js",
-    "static/js/3.5141c37d.chunk.js.map": "/github_deploy_test_app/static/js/3.5141c37d.chunk.js.map",
+    "main.css": "/github_deploy_test_app/static/css/main.230b68e0.chunk.css",
+    "main.js": "/github_deploy_test_app/static/js/main.d12b432e.chunk.js",
+    "main.js.map": "/github_deploy_test_app/static/js/main.d12b432e.chunk.js.map",
+    "runtime-main.js": "/github_deploy_test_app/static/js/runtime-main.190904f5.js",
+    "runtime-main.js.map": "/github_deploy_test_app/static/js/runtime-main.190904f5.js.map",
+    "static/js/2.2f6f9486.chunk.js": "/github_deploy_test_app/static/js/2.2f6f9486.chunk.js",
+    "static/js/2.2f6f9486.chunk.js.map": "/github_deploy_test_app/static/js/2.2f6f9486.chunk.js.map",
+    "static/js/3.6a58671c.chunk.js": "/github_deploy_test_app/static/js/3.6a58671c.chunk.js",
+    "static/js/3.6a58671c.chunk.js.map": "/github_deploy_test_app/static/js/3.6a58671c.chunk.js.map",
     "index.html": "/github_deploy_test_app/index.html",
-    "static/css/main.876a941d.chunk.css.map": "/github_deploy_test_app/static/css/main.876a941d.chunk.css.map",
-    "static/js/2.a1a19c7e.chunk.js.LICENSE.txt": "/github_deploy_test_app/static/js/2.a1a19c7e.chunk.js.LICENSE.txt"
+    "static/css/main.230b68e0.chunk.css.map": "/github_deploy_test_app/static/css/main.230b68e0.chunk.css.map",
+    "static/js/2.2f6f9486.chunk.js.LICENSE.txt": "/github_deploy_test_app/static/js/2.2f6f9486.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.791bb8a4.js",
-    "static/js/2.a1a19c7e.chunk.js",
-    "static/css/main.876a941d.chunk.css",
-    "static/js/main.527cb5b6.chunk.js"
+    "static/js/runtime-main.190904f5.js",
+    "static/js/2.2f6f9486.chunk.js",
+    "static/css/main.230b68e0.chunk.css",
+    "static/js/main.d12b432e.chunk.js"
   ]
 }
