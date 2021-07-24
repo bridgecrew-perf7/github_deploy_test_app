@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-deploy in ... https://gitkidmk.github.io/github_deploy_test_app/
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Deploy in ... https://gitkidmk.github.io/github_deploy_test_app/
 
 ## Available Scripts
 
