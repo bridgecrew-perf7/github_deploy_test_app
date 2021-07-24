@@ -1,0 +1,204 @@
+#rouletteContainer {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge*/
+  user-select: none;
+}
+
+#rouletteContainer {
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+  grid-template-rows: 10vh 40vh 35vh;
+}
+#titleDiv {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: white;
+}
+#dateParag {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: left;
+  display: none;
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: left;
+}
+.descriptionTitle {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#roulette {
+  margin: 10px;
+  width: 446px;
+  height: 446px;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  position: relative;
+  left: 60px;
+}
+#popupDiv {
+  z-index: 5;
+  background-color: #fad7d76c;
+  border-radius: 225px;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  top: -447px;
+  left: -3px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  transform: rotate(348deg);
+  color: rgb(226, 43, 83);
+  font-size: 31px;
+  font-weight: bold;
+}
+#popupDiv.hide {
+  z-index: 0;
+  background-color: white;
+}
+
+#message {
+  transform: rotate(-25deg);
+  margin-bottom: 50px;
+  color: rgb(226, 43, 83);
+  font-size: 20px;
+}
+
+#paycoDiv {
+  position: relative;
+  text-align: center;
+  width: 95%;
+}
+#restaurantDiv {
+  position: relative;
+}
+.restaurants {
+  border: #1cc053;
+  border-style: solid;
+  font-size: 13px;
+  word-break: break-all;
+  width: 30px;
+}
+
+.restaurants:hover {
+  font-weight: bold;
+}
+
+.region {
+  background-color: #1cc0537a;
+  border: #1cc053;
+  border-style: solid;
+  width: 50px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.region:hover {
+  font-weight: bolder;
+}
+
+#inputDiv {
+  position: absolute;
+  left: 0px;
+}
+
+#addRestaurantButton {
+  position: absolute;
+  width: 30px;
+  border-radius: 30px;
+  margin-left: 10px;
+  left: 180px;
+}
+#checkRestaurantList {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  border: #f1ceea;
+  border-style: solid;
+  bottom: 80px;
+}
+
+#checkRestaurantList li {
+  width: 200px;
+  text-align: left;
+}
+#checkRestaurantList li:hover {
+  font-weight: bold;
+}
+#choosingArea {
+  width: 500px;
+  height: 50px;
+}
+
+#chooseOneButton {
+  position: relative;
+  float: left;
+  top: -4px;
+  left: 25px;
+  background-color: #fad7d7;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 2px;
+}
+
+#choosingAreaDropdown {
+  position: relative;
+  margin-right: 10px;
+  width: 140px;
+  height: 33px;
+  border-width: 2px;
+  top: -27px;
+  left: 466px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+#dropdownLists {
+  display: block;
+  margin-top: 3px;
+}
+#dropdownLists div {
+  border-bottom-style: solid;
+  border-width: 2px;
+  background-color: white;
+}
+#dropdownLists div:hover {
+  font-weight: bold;
+}
+
+#dropdownLists.closed {
+  display: none;
+}
+#dropdownArrow {
+  font-size: 10px;
+  position: relative;
+  left: 10px;
+}
+
+#resultsDiv {
+  float: left;
+  left: 7px;
+  top: 1px;
+  position: relative;
+  color: #f99292;
+}
